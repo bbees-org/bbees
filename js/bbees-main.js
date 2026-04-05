@@ -1,4 +1,4 @@
-//bbees using POakwood Framework v4.1.0
+//bbees using Oakwood Framework v4.1.0
 class SiteFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -9,7 +9,7 @@ class SiteFooter extends HTMLElement {
         `;
     }
 }
-customElements.define('site-footer', SiteFooter);
+customElements.define('footer-site', SiteFooter)
 
 const fabs = document.querySelectorAll('.fab');
 window.addEventListener('scroll', () => {

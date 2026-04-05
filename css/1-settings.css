@@ -83,10 +83,10 @@
     --button-radius: 25px;
 
 
-    --fab-bg: seagreen;
-    --fab-text: white;
-    --fab-bg-hover: seagreen;
-    --fab-text-hover: lawngreen;
+    --fab-bg: #FFD760;;
+    --fab-text: black;
+    --fab-bg-hover: #FFD760;
+    --fab-text-hover: grey;
 
     --fab-shadow: var(--shadow-medium);
     --fab-offset: var(--spacing-block);
